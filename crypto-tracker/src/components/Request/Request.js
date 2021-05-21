@@ -14,6 +14,7 @@ import TableCell from "@material-ui/core/TableCell";
 import Typography from "@material-ui/core/Typography";
 import { TextField } from "@material-ui/core";
 
+
 const useStyles = makeStyles({
   table: {
     minWidth: 650,
@@ -64,7 +65,7 @@ const Request = () => {
         <Table className={classes.table} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell>Image</TableCell>
+              <TableCell >Image</TableCell>
               <TableCell align="right">Name</TableCell>
               <TableCell align="right">Symbol</TableCell>
               <TableCell align="right">Price</TableCell>
